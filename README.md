@@ -22,14 +22,9 @@ Make sure that there are no linter errors:
 _**IMPORTANT NOTE:** For each Microverse project, you need to create a separate pull request. It is the first time you need to work with multiple pull requests in your one repository. [Read how to do it most efficiently](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/articles/multiple_pull_requests.md)._
 
 - This sections of the mobile website includes:
--  "Works" section
-      <p align="center">
-       <img src="./img/work_section" alt="Toolbar" />
-      </p>
-   - the "About myself" section :
-    <p align="center">
-      <img src="./img/about_section" alt="About myself" />
-    </p>
+  - "Works" section     
+  - the "About myself" section 
+   
 
 ## Authors
 👤 **Author1**
