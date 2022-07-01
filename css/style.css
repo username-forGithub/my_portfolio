@@ -128,6 +128,7 @@ h5 {
 }
 
 .works h2 {
+  color:#172B4D;
   font-size: 40px;
   text-align: center;
   padding-bottom: 1%;
@@ -288,6 +289,7 @@ h5 {
 }
 
 .about h2 {
+  color: #172B4D;
   font-size: 40px;
   text-align: center;
   padding-top: 12%;
@@ -362,6 +364,7 @@ h5 {
 }
 
 .about p {
+  color:#42526E;
   font-size: 20px;
   text-align: center;
   max-width: 900px;
