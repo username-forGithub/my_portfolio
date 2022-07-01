@@ -1,37 +1,27 @@
 # Project Name
-> Portfolio: setup and mobile version skeleton
+> Portfolio: Mobile version
 
-## Learning objectives
-- Understand how to parse a Figma design to create a UI.
-- Flexbox to place elements in the page.
-- Build a personal portfolio site.
-- Package Manager: Node, NPM
-- Use images and backgrounds to enhance the look of the website.
+## Built With
+- Languages used: HTML, CSS.
+- Tools used: Github Desktop.
+- VSC: Git.
+- Package Manager: Node, NPM.
 
-### Description
-For the first milestone in the process of creating your portfolio website
-- set up a new repository and prepare it for development using best practices (e.g. linters).
-- build the first 2 sections of the mobile website using the template you chose in the previous step.
-
-### General requirements
-Make sure that there are no linter errors:
-- Linter should be set up correctly for this repository.
-- Linter result should be green.
-- There should be no custom changes to linter config.
-Make sure that you used correct GitHub Flow
-Make sure that you documented your work in a professional way
+### Sections
+#### This sections of the mobile website includes:
+  - "Works" section 
+   
+    ![works](https://user-images.githubusercontent.com/104260002/176953359-c143f80d-e2a9-4d3f-85f4-e63fc1162a1f.jpg)
+  
+    
+  - "About myself" section 
+  
+    ![about](https://user-images.githubusercontent.com/104260002/176953793-0b56df04-a122-422b-89ba-c79d8443c6bd.jpg)
 
 ## Authors
-👤 **Author1**
+👤 **Bakhtiyor Yusubaliyev**
 - GitHub: [@bakhtiyorY](https://github.com/githubhandle)
 - Twitter: [@bakhtiyor-yusubali](https://twitter.com/twitterhandle)
 
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome!
 
-## Show your support
-Give a ⭐️ if you like this project!
 
-## Acknowledgments
-- Microverse Videos
-- Setup Linters
