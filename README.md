@@ -9,10 +9,10 @@
 
 ### Sections
 - This sections of the mobile website includes:
-  1. "Works" section 
+  - "Works" section 
     ![works](https://user-images.githubusercontent.com/104260002/176953359-c143f80d-e2a9-4d3f-85f4-e63fc1162a1f.jpg)
     
-  2. "About myself" section 
+  - "About myself" section 
     ![about](https://user-images.githubusercontent.com/104260002/176953793-0b56df04-a122-422b-89ba-c79d8443c6bd.jpg)
 
 ## Authors
