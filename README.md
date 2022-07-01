@@ -9,7 +9,8 @@
 
 ### Sections
 - This sections of the mobile website includes:
-  - "Works" section     
+  - "Works" section 
+    ![image](https://prnt.sc/fCUM7TNDjK-b)    
   - the "About myself" section 
 
 ## Authors
