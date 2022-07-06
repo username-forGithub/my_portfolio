@@ -18,7 +18,7 @@
     ![footer](https://user-images.githubusercontent.com/104260002/177541938-ad89eb85-5eb8-4cc6-a678-c0edb42b65ff.jpg)
 
 
-## Authors
+## Author
 👤 **Bakhtiyor Yusubaliyev**
 - GitHub: [@bakhtiyorY](https://github.com/githubhandle)
 - Twitter: [@bakhtiyor-yusubali](https://twitter.com/twitterhandle)
