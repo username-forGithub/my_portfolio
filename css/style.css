@@ -5,7 +5,6 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  overflow-x: hidden;
 }
 
 header {
@@ -95,6 +94,16 @@ h5 {
   align-items: center;
 }
 
+.arrow-wrapper img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social li img {
+  display: block;
+}
+
 .banner-section {
   text-align: center;
 }
@@ -111,12 +120,6 @@ h5 {
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
-}
-
-.arrow-wrapper img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .works {
@@ -235,6 +238,12 @@ h5 {
   margin-right: 8px;
 }
 
+footer a {
+  color: #42526e;
+  font-size: 20px;
+  text-decoration: none;
+}
+
 .works a {
   text-decoration: none;
 }
@@ -286,6 +295,7 @@ h5 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .about h2 {
@@ -451,3 +461,4 @@ h5 {
 .about .btn-green {
   margin-top: 0;
 }
+
