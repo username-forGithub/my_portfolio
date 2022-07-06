@@ -462,3 +462,134 @@ footer a {
   margin-top: 0;
 }
 
+.form {
+  max-width: 1165px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.form h2 {
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 60px;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  height: 48px;
+  margin-bottom: 24px;
+  padding-left: 15px;
+}
+
+.form textarea {
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  padding-left: 15px;
+  padding-top: 12px;
+  height: 115px;
+}
+
+.form input::-webkit-input-placeholder,
+.form textarea::-webkit-input-placeholder {
+  color: #6b778c;
+  font-size: 15px;
+}
+
+.form input:focus {
+  outline: none;
+  border: 1px solid #60c095;
+  color: #091e42;
+}
+
+.form textarea:focus {
+  outline: none;
+  border: 1px solid #60c095;
+  color: #091e42;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #6b778c;
+  font-size: 15px;
+}
+
+.form input:-ms-input-placeholder,
+.form textarea:-ms-input-placeholder {
+  color: #6b778c;
+  font-size: 15px;
+}
+
+.form input:focus::placeholder,
+.form textarea:focus::placeholder {
+  color: #091e42;
+}
+
+.form input:focus::-webkit-input-placeholder,
+.form textarea:focus::-webkit-input-placeholder {
+  color: #091e42;
+}
+
+.form input:focus:-ms-input-placeholder,
+.form textarea:focus:-ms-input-placeholder {
+  color: #091e42;
+}
+
+.form button {
+  border: none;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+footer {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+footer .social {
+  margin-bottom: 0;
+  position: relative;
+  align-self: stretch;
+}
+
+footer .social::after {
+  content: "";
+  width: 57px;
+  height: 146px;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  background-image: url(../img/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+}
+
+footer .line {
+  background-color: #000;
+  height: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  width: 150px;
+  margin-top: 300px;
+  margin-bottom: 5px;
+}
