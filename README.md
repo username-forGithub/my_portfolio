@@ -10,15 +10,15 @@
 ### Sections
 #### This sections of the mobile website includes:
   - "Contact form" section 
-   
-    ![works](https://user-images.githubusercontent.com/104260002/176953359-c143f80d-e2a9-4d3f-85f4-e63fc1162a1f.jpg)
   
-    
+   ![form](https://user-images.githubusercontent.com/104260002/177541871-92e046d2-1548-492b-8f99-0da6fd50c29c.jpg)
+  
   - "Footer" section 
   
-    ![about](https://user-images.githubusercontent.com/104260002/176953793-0b56df04-a122-422b-89ba-c79d8443c6bd.jpg)
+    ![footer](https://user-images.githubusercontent.com/104260002/177541938-ad89eb85-5eb8-4cc6-a678-c0edb42b65ff.jpg)
 
-## Authors
+
+## Author
 👤 **Bakhtiyor Yusubaliyev**
 - GitHub: [@bakhtiyorY](https://github.com/githubhandle)
 - Twitter: [@bakhtiyor-yusubali](https://twitter.com/twitterhandle)
