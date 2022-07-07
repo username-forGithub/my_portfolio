@@ -8,7 +8,8 @@
 - Package Manager: Node, NPM.
 
 ### Sections
-#### This sections of the mobile website includes:
+#### The desktop version includes::
+
   - "Desktop header" section 
    
     ![header](https://user-images.githubusercontent.com/104260002/177787428-b5a4dc9a-bcef-408d-afb2-55ba23ad6ac7.jpg)
@@ -25,6 +26,7 @@
   - "Desktop form and footer" section
 
     ![contact_and_footer](https://user-images.githubusercontent.com/104260002/177797498-3c61f738-71c3-449a-9cc1-4d3997d4f13f.jpg)
+
 
 ## Author
 👤 **Bakhtiyor Yusubaliyev**
