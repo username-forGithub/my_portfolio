@@ -15,29 +15,31 @@ header {
   position: relative;
 }
 
-header > img{
+header > img {
   display: none;
 }
 
-@media (min-width:767px){
+@media (min-width: 767px) {
   header {
     background-image: none;
     max-width: 1410px;
-    padding-left:30px;
+    padding-left: 30px;
     margin-left: auto;
     margin-right: auto;
     min-height: 630px;
   }
-  header > img{
+
+  header > img {
     display: block;
-    width: 100%;    
-  } 
-  .sub-header{
+    width: 100%;
+  }
+
+  .sub-header {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-  } 
+  }
 }
 
 nav {
@@ -68,37 +70,40 @@ nav a {
   text-decoration: none;
 }
 
-nav ul{
+nav ul {
   display: none;
 }
 
-@media(min-width:767px){
-  nav{
+@media (min-width: 767px) {
+  nav {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
+
   nav > a {
     display: none;
   }
+
   nav > div {
     display: none;
   }
-  nav ul{
+
+  nav ul {
     display: flex;
     margin-top: 0;
     padding: 0;
     list-style: none;
   }
-  nav ul li{
+
+  nav ul li {
     margin-left: 15px;
     margin-right: 15px;
-
   }
-  nav ul li a{
+
+  nav ul li a {
     font-weight: 600;
     color: #172b4d;
-
   }
 }
 
@@ -179,12 +184,12 @@ h5 {
   letter-spacing: -0.37px;
 }
 
-@media(min-width:767px){
+@media (min-width: 767px) {
   .banner-section p {
     font-size: 18px;
-
   }
-  h1{
+
+  h1 {
     padding-top: 12%;
   }
 }
@@ -213,14 +218,14 @@ h5 {
   margin-top: 20px;
 }
 
-@media(min-width:767px){
+@media (min-width: 767px) {
   .works h2 {
     margin-top: 8%;
   }
 }
 
 @media (max-width: 575px) {
-  .works h2 {    
+  .works h2 {
     padding-bottom: 50px;
   }
 
@@ -566,24 +571,28 @@ footer a {
   align-self: center;
 }
 
-@media(min-width:767px){
-  .form{
+@media (min-width: 767px) {
+  .form {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
   }
-  .left-col{
+
+  .left-col {
     flex: 0 1 40%;
   }
-  .right-col{
+
+  .right-col {
     flex: 0 1 58%;
   }
-  .form h2{
+
+  .form h2 {
     margin-top: 55px;
     font-size: 30px;
     margin-bottom: 0;
     text-align: left;
   }
-  .form button{
+
+  .form button {
     margin-top: 0;
     -ms-flex-item-align: flex-start;
     -ms-grid-row-align: flex-start;
@@ -699,6 +708,6 @@ footer .line {
   margin-bottom: 5px;
 }
 
-.br{
+.br {
   border: 1px solid red;
 }
