@@ -224,7 +224,7 @@ h5 {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 768px) {
   .works h2 {
     padding-bottom: 50px;
   }
@@ -272,7 +272,7 @@ h5 {
   margin-bottom: 5px;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 768px) {
   .works .work-item {
     margin-bottom: 0;
   }
@@ -443,7 +443,7 @@ footer a {
   padding-top: 40px;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 768px) {
   .about .item {
     height: 310px;
   }
