@@ -19,7 +19,7 @@ header > img {
   display: none;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   header {
     background-image: none;
     max-width: 1410px;
@@ -74,7 +74,7 @@ nav ul {
   display: none;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   nav {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -184,7 +184,7 @@ h5 {
   letter-spacing: -0.37px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .banner-section p {
     font-size: 18px;
   }
@@ -218,7 +218,7 @@ h5 {
   margin-top: 20px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .works h2 {
     margin-top: 8%;
   }
@@ -405,7 +405,7 @@ footer a {
   margin-right: -12px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .about .items-wrapper {
     padding-top: 60px;
   }
@@ -500,7 +500,7 @@ footer a {
   background-size: contain;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .about .p-wrapper::before {
     left: -24px;
     width: 231px;
@@ -582,7 +582,7 @@ footer a {
   align-self: center;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .form {
     display: flex;
     justify-content: space-between;
@@ -739,7 +739,7 @@ footer .line {
   margin-bottom: 5px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   footer > a {
     display: none;
   }
@@ -775,12 +775,9 @@ footer .line {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   footer {
     margin-top: 0;
   }
 }
 
-.br {
-  border: 1px solid red;
-}
