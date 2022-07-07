@@ -761,7 +761,8 @@ footer .line {
 
 @media (max-width: 1400px) {
   .illustration .last {
-    display: none;
+    width: 150px;
+    margin-top: 150px;
   }
 }
 
