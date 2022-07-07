@@ -500,6 +500,17 @@ footer a {
   background-size: contain;
 }
 
+@media (min-width: 767px) {
+  .about .p-wrapper::before {
+    left: -24px;
+    width: 231px;
+  }
+
+  .about .p-wrapper::after {
+    width: 145px;
+  }
+}
+
 .about .circle {
   width: 80px;
   height: 80px;
@@ -667,6 +678,26 @@ footer a {
   color: #091e42;
 }
 
+.illustration {
+  margin-top: -300px;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.illustration .last {
+  margin-left: auto;
+}
+
+.illustration img:not(.last) {
+  margin-top: 12%;
+}
+
 footer {
   text-align: center;
   display: -webkit-box;
@@ -706,6 +737,48 @@ footer .line {
   width: 150px;
   margin-top: 300px;
   margin-bottom: 5px;
+}
+
+@media (min-width: 767px) {
+  footer > a {
+    display: none;
+  }
+
+  footer .line {
+    display: none;
+  }
+
+  footer .social::after {
+    content: none;
+  }
+
+  footer .social {
+    border-top: 1px solid #d0d9d4;
+    padding: 20px 25px 20px 25px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  .illustration .last {
+    display: none;
+  }
+}
+
+@media (max-width: 1230px) {
+  .illustration {
+    display: none;
+  }
+
+  footer {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  footer {
+    margin-top: 0;
+  }
 }
 
 .br {
