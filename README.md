@@ -1,5 +1,5 @@
 # Project Name
-> Portfolio: desktop version
+> Portfolio: Animation
 
 ## Built With
 - Languages used: HTML, CSS.
@@ -10,22 +10,18 @@
 ### Sections
 #### The desktop version includes::
 
-  - "Desktop header" section 
+  - Menu hover animation
    
-    ![header](https://user-images.githubusercontent.com/104260002/177787428-b5a4dc9a-bcef-408d-afb2-55ba23ad6ac7.jpg)
+![menu-hover](https://user-images.githubusercontent.com/104260002/178060702-5fa7bffb-e1f4-498a-b85f-95f7c3da3490.jpg)
   
     
-  - "Desktop works" section 
+  - Arrow down animation
   
-     ![recent](https://user-images.githubusercontent.com/104260002/177787639-4e4d2a2f-cf50-4a08-a918-91d11d9d94ad.jpg)
+  ![arrow-hover](https://user-images.githubusercontent.com/104260002/178060812-974bebd4-f8e8-4bef-bfbe-cb2cecc284da.jpg)
 
-  - "Desktop about" section
+  - Button hover animation
 
-      ![about](https://user-images.githubusercontent.com/104260002/177797774-cae56c58-1c9b-4070-99f7-70c3b8e77f5f.jpg)
-
-  - "Desktop form and footer" section
-
-    ![contact_and_footer](https://user-images.githubusercontent.com/104260002/177797498-3c61f738-71c3-449a-9cc1-4d3997d4f13f.jpg)
+  ![btn-hover](https://user-images.githubusercontent.com/104260002/178060965-1c14877f-6cbf-4d88-ac71-a57d6b2b7fa3.jpg)
 
 
 ## Author
