@@ -688,6 +688,8 @@ footer a {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  z-index: -1;
 }
 
 .illustration .last {
@@ -766,17 +768,10 @@ footer .line {
   }
 }
 
-@media (max-width: 1230px) {
+@media (max-width: 768px) {
   .illustration {
     display: none;
   }
-
-  footer {
-    margin-top: 200px;
-  }
-}
-
-@media (max-width: 768px) {
   footer {
     margin-top: 0;
   }
