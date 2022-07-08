@@ -1,5 +1,5 @@
 # Project Name
-> Portfolio: Contact Form
+> Portfolio: Animation
 
 ## Built With
 - Languages used: HTML, CSS.
@@ -8,14 +8,20 @@
 - Package Manager: Node, NPM.
 
 ### Sections
-#### This sections of the mobile website includes:
-  - "Contact form" section 
+#### The desktop version includes::
+
+  - Menu hover animation
+   
+![menu-hover](https://user-images.githubusercontent.com/104260002/178060702-5fa7bffb-e1f4-498a-b85f-95f7c3da3490.jpg)
   
-   ![form](https://user-images.githubusercontent.com/104260002/177541871-92e046d2-1548-492b-8f99-0da6fd50c29c.jpg)
+    
+  - Arrow down animation
   
-  - "Footer" section 
-  
-    ![footer](https://user-images.githubusercontent.com/104260002/177541938-ad89eb85-5eb8-4cc6-a678-c0edb42b65ff.jpg)
+  ![arrow-hover](https://user-images.githubusercontent.com/104260002/178060812-974bebd4-f8e8-4bef-bfbe-cb2cecc284da.jpg)
+
+  - Button hover animation
+
+  ![btn-hover](https://user-images.githubusercontent.com/104260002/178060965-1c14877f-6cbf-4d88-ac71-a57d6b2b7fa3.jpg)
 
 
 ## Author
