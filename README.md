@@ -8,7 +8,7 @@
 - Package Manager: Node, NPM.
 
 ## Visit My GitHub Page
- **_Visit my github page_** https://username-forgithub.github.io/my_portfolio
+ **_Live demo_** https://username-forgithub.github.io/my_portfolio
  
 ## Author
 👤 **Bakhtiyor Yusubaliyev**
