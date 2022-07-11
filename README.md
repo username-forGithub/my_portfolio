@@ -8,7 +8,7 @@
 - Package Manager: Node, NPM.
 
 ## Visit My GitHub Page
- Visit my github page [(https://username-forgithub.github.io/my_portfolio/)]
+ Visit my github page (https://username-forgithub.github.io/my_portfolio/)
  
 ### Sections
 #### The desktop version includes::
