@@ -7,6 +7,9 @@
 - VSC: Git.
 - Package Manager: Node, NPM.
 
+## GitHub Pages
+ ![Click to see the page](https://username-forgithub.github.io/my_portfolio/)
+ 
 ### Sections
 #### The desktop version includes::
 
