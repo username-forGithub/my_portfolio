@@ -200,9 +200,12 @@
         </div>
         <div class="right-col">
              <form action="https://formspree.io/f/mqknveor" method="post">
-                <input type="text" name="username" maxlength="30" placeholder="Full name" required>
-                <input type="email" name="useremail" placeholder="Email address" required>
-                <textarea name="usermessage" maxlength="500" placeholder="Enter text here" required></textarea>
+                <label for="fullname">Fullname</label>
+                <input id="fullname" type="text" name="username" maxlength="30" placeholder="Full name" required>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="useremail" placeholder="Email address" required>
+                <label for="textarea">Textarea</label>
+                <textarea id="textarea" name="usermessage" maxlength="500" placeholder="Enter text here" required></textarea>
                 <button class="btn-green" type="submit">Get in touch</button>
              </form>
         </div>
