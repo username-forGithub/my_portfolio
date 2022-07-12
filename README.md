@@ -18,5 +18,8 @@
 - GitHub: [@bakhtiyorY](https://github.com/githubhandle)
 - Twitter: [@bakhtiyor-yusubali](https://twitter.com/twitterhandle)
 
+## Acknowledgments
+- Tinaye Tsinakwadi
+
 
 
