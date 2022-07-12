@@ -588,6 +588,16 @@ footer a {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  overflow-x: hidden;
+}
+
+.form label {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .form h2 {
