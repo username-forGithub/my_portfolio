@@ -1,5 +1,5 @@
 # Project Name
-> Portfolio: Animation
+> Portfolio: accessibility
 
 ## Built With
 - Languages used: HTML, CSS.
@@ -7,21 +7,10 @@
 - VSC: Git.
 - Package Manager: Node, NPM.
 
-### Sections
-#### The desktop version includes::
+### The changes made to meet accessibility requirements:
 
-  - Menu hover animation
-   
-![menu-hover](https://user-images.githubusercontent.com/104260002/178060702-5fa7bffb-e1f4-498a-b85f-95f7c3da3490.jpg)
-  
-    
-  - Arrow down animation
-  
-  ![arrow-hover](https://user-images.githubusercontent.com/104260002/178060812-974bebd4-f8e8-4bef-bfbe-cb2cecc284da.jpg)
+![Screenshot_1](https://user-images.githubusercontent.com/104260002/178505545-9d75e02f-e31e-4d2d-ae5b-6cfe6a00dbb8.jpg)
 
-  - Button hover animation
-
-  ![btn-hover](https://user-images.githubusercontent.com/104260002/178060965-1c14877f-6cbf-4d88-ac71-a57d6b2b7fa3.jpg)
 
 
 ## Author
