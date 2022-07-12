@@ -796,17 +796,3 @@ footer .line {
     display: none;
   }
 }
-
-.red{
-  background-color: red;
-  float:left;
-  width: 33.33%;
-}
-.red{
-  background-color: rgb(99, 160, 140);
-  float:left;
-  width: 33.33%;
-}
-.red, .blue{
-  width: 100%;
-}
