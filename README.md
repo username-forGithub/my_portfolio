@@ -1,8 +1,8 @@
-# Project Name
-> Portfolio: accessibility
+# Project name
+> Portfolio Mobile Menu
 
 ## Built With
-- Languages used: HTML, CSS.
+- Languages used: HTML, CSS, javascript
 - Tools used: Github Desktop.
 - VSC: Git.
 - Package Manager: Node, NPM.
@@ -19,8 +19,14 @@
 - GitHub: [@bakhtiyorY](https://github.com/githubhandle)
 - Twitter: [@bakhtiyor-yusubali](https://twitter.com/twitterhandle)
 
-## Acknowledgments
-- Tinaye Tsinakwadi
+## Contributor
+
+👤 **Emmanuel Effiong Essien**
+
+- GitHub: [@githubhandle](https://github.com/ehma90)
+- Twitter: [@twitterhandle](https://twitter.com/ehma_essien)
+
+
 
 
 
