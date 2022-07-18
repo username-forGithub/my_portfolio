@@ -92,7 +92,7 @@ nav a {
     list-style: none;
   }
 
-  nav ul span{
+  nav ul .aa {
     display: none;
   }
 
@@ -120,7 +120,7 @@ nav a {
   }
 }
 
-@media(max-width:768px){
+@media (max-width: 768px) {
   .mob-background {
     position: fixed;
     height: 100%;
@@ -128,14 +128,15 @@ nav a {
     top: 0;
     left: calc(-100% - 50px);
     left: -100%;
-    transition: 0.5s; 
+    transition: 0.5s;
   }
 
-    .active .mob-background{
+  .active .mob-background {
     left: 0;
-    transition: 0.5s; 
-    background-color:rgba(178, 167, 182, 0.8);
+    transition: 0.5s;
+    background-color: rgba(178, 167, 182, 0.9);
   }
+
   nav ul {
     position: fixed;
     z-index: 10;
@@ -143,36 +144,42 @@ nav a {
     width: 100%;
     top: 0;
     left: calc(-100% - 50px);
-    transition: 0.5s;    
+    transition: 0.5s;
     list-style: none;
-    padding-left: 0; 
-    margin-top: 0;   
+    padding-left: 0;
+    margin-top: 0;
     background-color: #fff;
     border-radius: 0 0 25px 25px;
   }
 
-  nav ul li:first-child{
+  nav ul li {
+    padding-bottom: 15px;
+    padding-left: 25px;
+  }
+
+  nav ul li:first-child {
     margin-top: 85px;
   }
 
   .active nav ul {
-    left: 0px;
+    left: 0;
     transition: 0.5s;
   }
 
-  nav ul span{
+  nav ul .aa {
     display: flex;
     position: absolute;
     top: 25px;
     right: 33px;
     font-size: 25px;
-    color: #67798E;
+    color: #67798e;
     cursor: pointer;
   }
 
-  nav ul span.mob-l{
+  nav ul .aa.mob-l {
     position: absolute;
-    bottom: 5px;
+    bottom: -55px;
+    padding-bottom: 0;
     top: auto;
     left: 50%;
     transform: translateX(-50%);
@@ -182,17 +189,11 @@ nav a {
     border-radius: 5px;
   }
 
-  nav ul li {
-    padding-bottom: 15px;
-    padding-left: 25px;
-  }
-
-  nav ul li a{
+  nav ul li a {
     font-size: 32px;
-    color: #3A4A42;
+    color: #3a4a42;
     font-weight: 600;
   }
-
 }
 
 h1 {
