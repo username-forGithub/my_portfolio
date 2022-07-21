@@ -1044,3 +1044,9 @@ footer .line {
     font-size: 28px;
   }
 }
+
+.errorclass {
+  display: none;
+  color: #008552;
+  font-size: 14px;
+}
