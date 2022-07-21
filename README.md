@@ -1,5 +1,5 @@
 # Project name
-> Portfolio Mobile Menu
+> Portfolio: popup window
 
 ## Built With
 - Languages used: HTML, CSS, javascript
