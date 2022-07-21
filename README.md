@@ -1,4 +1,4 @@
-# Portfolio: popup window
+# Portfolio: validate contact form
 > The project designed to improve coding skills and upgrading knowledgments on CSS, HTML, JavaScript.
 
 ## Built With
