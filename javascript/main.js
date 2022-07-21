@@ -140,3 +140,11 @@ getpopupclose.addEventListener('click', () => {
     getpopupclose.nextElementSibling.remove();
   }
 });
+const getformbtn = document.querySelector('.form form');
+const geterror = document.querySelector('.errorclass');
+getformbtn.addEventListener('submit', (e) => {
+  if (getformbtn.useremail.value !== getformbtn.useremail.value.toLowerCase()) {
+    geterror.style.display = 'block';
+    e.preventDefault();
+  }
+});
