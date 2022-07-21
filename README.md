@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 1. Clone the repo in your local machine:
 ```bash
-git clone https://github.com/RiyaBulia12/Portfolio.git
+git clone https://github.com/username-forGithub/my_portfolio
 ```
 2. Open terminal and cd into project
 ```bash
