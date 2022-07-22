@@ -164,4 +164,19 @@ getformbtn.addEventListener('change', () => {
   localStorage.setItem('localdata', stringifieddata);
 });
 
-const element = document.querySelector(".right-col");
+function formload() {
+  const getjson = localStorage.getItem('localdata');
+  if (getjson) {
+    const datafromjson = JSON.parse(getjson);
+    if (datafromjson.username) {
+      getformbtn.username.value = datafromjson.username;
+    }
+    if (datafromjson.useremail) {
+      getformbtn.useremail.value = datafromjson.useremail;
+    }
+    if (datafromjson.usermessage) {
+      getformbtn.usermessage.value = datafromjson.usermessage;
+    }
+  }
+}
+window.addEventListener('load', formload);
