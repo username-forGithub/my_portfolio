@@ -1,4 +1,4 @@
-# Portfolio: validate contact form
+# Portfolio: preserve data in the browser
 > The project designed to improve coding skills and upgrading knowledgments on CSS, HTML, JavaScript.
 
 ## Built With

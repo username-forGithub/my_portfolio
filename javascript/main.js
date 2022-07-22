@@ -146,5 +146,37 @@ getformbtn.addEventListener('submit', (e) => {
   if (getformbtn.useremail.value !== getformbtn.useremail.value.toLowerCase()) {
     geterror.style.display = 'block';
     e.preventDefault();
+  } else {
+    if (localStorage.getItem('localdata')) {
+      localStorage.removeItem('localdata');
+    }
+    geterror.style.display = 'none';
   }
 });
+
+const data = {};
+
+getformbtn.addEventListener('change', () => {
+  data.username = getformbtn.username.value;
+  data.useremail = getformbtn.useremail.value;
+  data.usermessage = getformbtn.usermessage.value;
+  const stringifieddata = JSON.stringify(data);
+  localStorage.setItem('localdata', stringifieddata);
+});
+
+function formload() {
+  const getjson = localStorage.getItem('localdata');
+  if (getjson) {
+    const datafromjson = JSON.parse(getjson);
+    if (datafromjson.username) {
+      getformbtn.username.value = datafromjson.username;
+    }
+    if (datafromjson.useremail) {
+      getformbtn.useremail.value = datafromjson.useremail;
+    }
+    if (datafromjson.usermessage) {
+      getformbtn.usermessage.value = datafromjson.usermessage;
+    }
+  }
+}
+window.addEventListener('load', formload);
