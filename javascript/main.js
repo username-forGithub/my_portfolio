@@ -7,26 +7,26 @@ const arr = [
     description: "Create your own book list with 'awesome book' app",
     live: 'https://username-forgithub.github.io/book_collection/',
     source: 'https://github.com/username-forGithub/awesome-books',
-    tech: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
+    tech: ['HTML', 'GitHub', 'Javascript', 'Bootstrap'],
   },
   {
     id: 2,
-    imageDesk: 'img/popup-desk.jpg',
-    imageMob: 'img/popup-mob.jpg',
-    title: 'Keeping track of hundreds of components2',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    live: 'https://google.com',
-    source: 'https://google.com',
-    tech: ['CSS', 'GitHub', 'Javascript', 'Bootstrap', 'Codepen'],
+    imageDesk: 'img/popup-desk-course.jpg',
+    imageMob: 'img/popup-mob-course.jpg',
+    title: 'Online courses',
+    description: "Beatiful online courses website",
+    live: 'https://username-forgithub.github.io/online_courses',
+    source: 'https://github.com/username-forGithub/online_courses',
+    tech: ['CSS', 'GitHub', 'Javascript', 'Bootstrap'],
   },
   {
     id: 3,
-    imageDesk: 'img/popup-desk.jpg',
-    imageMob: 'img/popup-mob.jpg',
-    title: 'Keeping track of hundreds of components3',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    live: 'https://google.com',
-    source: 'https://google.com',
+    imageDesk: 'img/popup-desk-todo.jpg',
+    imageMob: 'img/popup-mob-todo.jpg',
+    title: 'Best to do list app',
+    description: "This app balances power with simplicity, and it does so while running on basically every platform that exists. That's a strong selling point—which is probably why Todoist is one of the most popular to-do lists right now.",
+    live: 'https://username-forgithub.github.io/To-Do-List',
+    source: 'https://github.com/username-forGithub/To-Do-List',
     tech: ['HTML', 'Javascript', 'Bootstrap'],
   },
   {
@@ -64,7 +64,7 @@ let htmlstring = '';
 arr.forEach((item) => {
   let string = `
     <div class="work-item">
-      <div class="div-wrapper"></div>
+      <div class="div-wrapper"><img class="main-img" src="${item.imageMob}"></div>
       <div class="bottom-part">
           <h4>${item.title}</h4>
           <ul>`;

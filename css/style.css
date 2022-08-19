@@ -389,6 +389,16 @@ h5 {
   padding-bottom: 68%;
   background-color: #ebf0ee;
   width: 100%;
+  position: relative;
+}
+
+.div-wrapper .main-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .works .bottom-part {
