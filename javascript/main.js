@@ -1,8 +1,8 @@
 const arr = [
   {
     id: 1,
-    imageDesk: 'img/popup-desk.jpg',
-    imageMob: 'img/popup-mob.jpg',
+    imageDesk: 'img/popup-desk-book.jpg',
+    imageMob: 'img/popup-mob-book.jpg',
     title: 'Awesome books',
     description: "Create your own book list with 'awesome book' app",
     live: 'https://username-forgithub.github.io/book_collection/',
