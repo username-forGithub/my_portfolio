@@ -4,7 +4,7 @@ const arr = [
     imageDesk: 'img/popup-desk.jpg',
     imageMob: 'img/popup-mob.jpg',
     title: 'Awesome books',
-    description: "Create your own book list by 'awesome book' app",
+    description: "Create your own book list with 'awesome book' app",
     live: 'https://username-forgithub.github.io/book_collection/',
     source: 'https://github.com/username-forGithub/awesome-books',
     tech: ['Codekit', 'GitHub', 'Javascript', 'Bootstrap', 'Terminal', 'Codepen'],
