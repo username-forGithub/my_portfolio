@@ -58,8 +58,8 @@ npx hint .
 
 ## Author
 👤 **Bakhtiyor Yusubaliyev**
-- GitHub: [@bakhtiyorY](https://github.com/githubhandle)
-- Twitter: [@bakhtiyor-yusubali](https://twitter.com/twitterhandle)
+- GitHub: [@bakhtiyorY](https://github.com/username-forGithub)
+- Twitter: [@bakhtiyor-yusubali](https://twitter.com/Bakhtiyor_dev)
 
 ## Contributor
 
