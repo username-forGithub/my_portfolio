@@ -1,156 +1,207 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Bakhtiyor's portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/fav.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Portfolio</title>
 </head>
 <body>
-    <!-- HEADER SECTION -->
-    <header>
-        <div class="mob-background"></div>
-        <img src="img/header-llustration-desktop.png" alt="">
-        <div class="sub-header">
-            <nav>
-                <a href="/" class="logo-wrapper">Welcome</a>
-                <div class="humburger-wrapper">
-                    <img src="img/menu-icon.png" alt="menu icon">               
-                </div>
-                <ul>
-                    <li class="linkclass"><a href="#targetid">Portfolio</a></li>
-                    <li class="linkclass"><a href="#about">About</a></li>
-                    <li class="linkclass"><a href="#form">Contact</a></li>
-                    <li class="aa closeclass">&times;</li>
-                    <li class="aa mob-l"></li>
-                </ul>
-            </nav>
-            <section class="banner-section">
-                <h1>
-                    <span>Hey there. I’m Bakhtiyor</span>
-                    <span>I’m a software developer</span>
-                </h1>
-                <p>
-                    I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                    don’t hestiate to contact me.
-                </p>
-                <ul class="social">
-                    <li><a href="https://twitter.com/Bakhtiyor_dev"><img src="img/twitter.svg" alt="twitter icon"></a></li>
-                    <li><a href="https://www.linkedin.com/in/baxtiyor-yusubaliev/"><img src="img/linkedin-icon.svg" alt="linkedin icon"></a></li>
-                    <li><a href="https://github.com/username-forGithub"><img src="img/github.svg" alt="github icon"></a></li>
-                    <li><a href="https://angel.co/u/yusubaliev-bakhtiyor"><img src="img/angellist.svg" alt="angrllist icon"></a></li>
-                </ul>
-                <a href="#targetid" class="arrow-wrapper"><img src="img/arrow-down.png" alt="arrow down"></a>
-            </section>
-        </div>        
-    </header>
-    <!-- WORKS SECTION -->
-    <section class="works">
-        <h2 id="targetid">My Recent Works</h2>
-        <div class="wrapper">
-          
-        </div>
-    </section>
-    <!-- ABOUT SECTION -->
-    <section id="about" class="about">
-        <h2>About me</h2>
-        <div class="p-wrapper">
-            <p> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                don’t hestiate to contact me.
-            </p>
-        </div>
-        <div class="items-wrapper ">
-            <div class="item-wrapper">
-                <div class="item">
-                    <div class="circle">
-                        <img src="img/icon-language.png" alt="">
-                    </div>
-                    <h4>Languages</h4>
-                    <ul>
-                        <li><a>JavaScript</a></li>
-                        <li><a>Ruby</a></li>
-                        <li><a>Html</a></li>
-                        <li><a>Css</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item-wrapper">
-                <div class="item">
-                    <div class="circle">
-                        <img src="img/icon-center.png" alt="">
-                    </div>
-                    <h4>Frameworks</h4>
-                    <ul>
-                        <li><a>Bootstrap</a></li>
-                        <li><a>Ruby on rauls</a></li>
-                        <li><a>Rspec</a></li>
-                        <li><a>Capybara</a></li>
-                        <li><a>Selenium</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="item-wrapper">
-                <div class="item">
-                    <div class="circle">
-                        <img src="img/icon-right.png" alt="">
-                    </div>
-                    <h4>Skills</h4>
-                    <ul>
-                        <li><a>JavaScript</a></li>
-                        <li><a>Ruby</a></li>
-                        <li><a>Html</a></li>
-                        <li><a>Css</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- FOOTER SECTION -->
-    <section id="form" class="form">
-        <div class="left-col">
-            <h2>
-                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-            </h2>
-        </div>
-        <div class="right-col">
-             <form action="https://formspree.io/f/mqknveor" method="post">
-                <label for="fullname">Fullname</label>
-                <input id="fullname" type="text" name="username" maxlength="30" placeholder="Full name" required>
-                <label for="email">Email</label>
-                <input id="email" type="email" name="useremail" placeholder="Email address" required>
-                <label for="textarea">Textarea</label>
-                <textarea id="textarea" name="usermessage" maxlength="500" placeholder="Enter text here" required></textarea>
-                <div class="errorclass">Please, enter email address in lowercase.</div>
-                <button class="btn-green" type="submit">Get in touch</button>
-             </form>
-        </div>
-    </section>
-    <section class="illustration">
-        <img src="img/Frame-1.png" alt="">
-        <img src="img/Frame-2.png" alt="">
-        <img class="last" src="img/Frame.png" alt="">
-    </section>
-    <footer>
-        <ul class="social">
-            <li><a href="https://twitter.com/Bakhtiyor_dev"><img src="img/twitter.svg" alt="twitter icon"></a></li>
-            <li><a href="https://www.linkedin.com/in/baxtiyor-yusubaliev/"><img src="img/linkedin-icon.svg" alt="linkedin icon"></a></li>
-            <li><a href="https://github.com/username-forGithub"><img src="img/github.svg" alt="github icon"></a></li>
-            <li><a href="https://angel.co/u/yusubaliev-bakhtiyor"><img src="img/angellist.svg" alt="angrllist icon"></a></li>
-        </ul>
-        <a href="mailto:myemailhere@email.com">myemailhere@email.com</a>
-        <span class="line"></span>
-    </footer>
-
-    <div class="popup-background">
-        <div class="popup">
-            <span class="aa closeclass">&times;</span>            
-        </div>
+  <section class="hero">
+    <div class="gifWrapper">
+      <div class="gifinnerWrapper">
+        <img id="imgid" src="images/clip.gif" alt="">
+      </div>
     </div>
+    <div class="hiWrapper">
+      <div class="hiMask">
+        <div class="hi">
+          <span class="hi1">Hi</span>
+          <span class="hi2">I'm Bakhtiyor</span>
+          <span class="hi3">a software developer with a passion for solving problems and learning new things.</span>         
+        </div> 
+      </div>
+    </div>
+  </section> 
+  <section class="aboutMe">
+    <div class="h2wrapper">
+      <div class="half">
+        <h2 class="">
+          <span>A</span><span>b</span><span>o</span><span>u</span><span>t</span><span>&nbsp;</span><span>m</span><span>e</span>
+          <i>More</i>
+        </h2>
+        
+      </div>
+    </div>
+    <h3>As a Software Developer, my goal is to continually improve my programming skills in order to present better solutions to my employers and their clients.</h3>
+
+    <div class="pathwrapper">
+      <svg width="810" height="703" viewBox="0 0 810 703" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M406 703C406 703 406 569.5 406 557.5V543H394.5H302.5C302.5 543 296 545.5 296 557.5C296 569.5 296 615 296 615C296 615 296 631.5 280 631.5C264 631.5 34 631.5 34 631.5C34 631.5 16.5 631.5 16.5 615C16.5 598.5 16.5 478.5 16.5 478.5C16.5 478.5 16.5 464 34 464C51.5 464 280 464 280 464C280 464 296 464 296 478.5C296 493 296 512.5 296 526C296 539.5 302.5 541.5 302.5 541.5H394.5H406V429H417.5C429 429 509.5 429 509.5 429C509.5 429 514.5 432 514.5 444C514.5 456 514.5 478.5 514.5 478.5C514.5 478.5 514.5 494 532 494C549.5 494 794.5 494 794.5 494C794.5 494 809 494 809 475C809 456 809 389.5 809 375.5C809 361.5 794.5 361.5 794.5 361.5H527.5C527.5 361.5 514.5 361.5 514.5 375.5C514.5 389.5 514.5 394.5 514.5 409.5C514.5 424.5 509.5 427.5 509.5 427.5H417.5H406V324H392H302.5C302.5 324 296 327.5 296 343C296 358.5 296 388 296 405C296 422 277 422 277 422H23.5C23.5 422 1 422 1 401C1 380 1 254 1 234C1 214 23.5 214 23.5 214H277C277 214 296 214 296 234C296 254 296 293.5 296 307C296 320.5 302.5 322.5 302.5 322.5H392H406V223.5H417.5H509.5C509.5 223.5 514.5 228.5 514.5 241C514.5 253.5 514.5 261 514.5 261C514.5 261 514.5 277 532 277C549.5 277 716.5 277 716.5 277C716.5 277 736.5 277 736.5 258.5C736.5 240 736.5 164.5 736.5 164.5C736.5 164.5 736.5 147 716.5 147C696.5 147 532 147 532 147C532 147 514.5 147 514.5 164.5C514.5 182 514.5 199 514.5 210.5C514.5 222 509.5 222 509.5 222H417.5H406V131.5H394.5H302.5C302.5 131.5 296 131.5 296 141.5C296 151.5 296 148 296 164.5C296 181 277 181 277 181C277 181 90 181 73.5 181C57 181 57 164.5 57 164.5V66.5C57 66.5 57 53.5 70 53.5C83 53.5 285.5 53.5 285.5 53.5C285.5 53.5 296 53.5 296 66.5C296 79.5 296 104.5 296 116C296 127.5 302.5 129.5 302.5 129.5H394.5H406V0" stroke="black"/>
+      </svg> 
+      <div class="layout">
+        <div class="left1">
+          <h5>Project Manager</h5>
+          <span>
+            Slashed delivery times 5% in 6 months and cut costs by 3% for all client projects.
+            Achieved average of 99% client satisfaction.
+          </span>
+        </div>
+        <div class="right1">
+          <h5>Front-End-developer</h5>
+          <span>
+            Devised and created more than 30 modern custom responsive (wordpress) websites.
+          </span>
+        </div>
+        <div class="left2">
+          <h5>Microverse Remote<br> Full Stack Web Development Program</h5>
+          <span>
+            Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux.
+            Developed skills in remote pair-programming using GitHub, industry-standard git-flow, and daily standups to communicate and collaborate with international remote developers. 
+          </span>
+        </div>
+        <div class="right2">
+          <h5>Microverse mentor,<br> Freelancer, Volunteer</h5>
+          <span>
+            Mentoring 15+ junior web developers, and providing technical support through code reviews.
+            Fixing bugs, errors and making changes to Prop44.com property website.
+          </span>
+        </div>
+        <div class="left3">
+          <div class="imgwrapper">
+            <img src="images/hirebanner.jpg" alt="">              
+          </div>
+        </div>
+        <span class="span20">2020</span>    
+        <span class="span21">2021</span> 
+        <span class="span22">2022</span>   
+        <span class="span23">2023</span>
+        <span class="spannow">NOW</span>
+      </div>
+    </div>
+  </section>
+
   
-    <script src="javascript/main.js"></script>
+  <section class="projects rrr">
+    <div class="h2wrapper">
+      <div class="half">
+        <h2>
+          <span>&nbsp;</span><span>W</span><span>o</span><span>r</span><span>k</span><span>s</span>
+          <i>Featured</i>
+        </h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="item">
+        <div class="content">
+          <div class="links">
+            <a target="_blank" href="https://github.com/username-forGithub/tutor_front_api.git"><i class="fa-brands fa-github"></i></a>
+            <a target="_blank" data-title="The website on Free Tier. The load might be slow" href="https://tutors-back-api.netlify.app/"><i class="fa fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <h4><span>Tutors</span><span>Universe</span></h4>
+          <div class="h5wrapper">
+            <h5>API, HTML/CSS, JS</h5>
+            <h5>ReactJS, Redux, Rails, AWS S3</h5>
+          </div>
+        </div> 
+      </div>
+      <div class="item">
+        <div class="content">
+          <div class="links">
+            <a href="https://github.com/username-forGithub/charthop-wordpress"><i class="fa-brands fa-github"></i></a>
+            <a data-title="The website on Free Tier. The load might be slow" href="http://simplesamplesite.rf.gd"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <h4><span>Chart</span><span>Hope</span></h4>
+          <div class="h5wrapper">
+            <h5>API, HTML/CSS, JS, PHP</h5>
+            <h5>WordPress, Custom Theme</h5>
+          </div>
+        </div> 
+      </div>
+      <div class="item">
+        <div class="content">
+          <div class="links">
+            <a href="https://github.com/username-forGithub/rails_budget_app"><i class="fa-brands fa-github"></i></a>
+            <a data-title="The website on Free Tier. The load might be slow" href="https://budget-1sn7.onrender.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <h4><span>Budget</span><span>App</span></h4>
+          <div class="h5wrapper">
+            <h5>HTML/CSS, JS</h5>
+            <h5>Ruby on Rails</h5>
+          </div>
+        </div> 
+      </div>
+      <div class="item">
+        <div class="content">
+          <div class="links">
+            <a href="https://github.com/username-forGithub/react_space"><i class="fa-brands fa-github"></i></a>
+            <a data-title="This is a react prototype website" href="https://reactspace-prototype.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <h4><span>Space</span><span>Travel</span></h4>
+          <div class="h5wrapper">
+            <h5>HTML/CSS, JS</h5>
+            <h5>ReactJS, Redux</h5>
+          </div>
+        </div> 
+      </div>
+      <div class="item">
+        <div class="content">
+          <div class="links">
+            <a data-title="Username: dev, Password: 555" href="https://jms.1devserver.co.uk/"><i class="fa-brands fa-github"></i></a>
+            <a data-title="Username: dev, Password: 555" href="https://jms.1devserver.co.uk/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <h4><span>Sustainable</span><span>Feed Solutions</span></h4>
+          <div class="h5wrapper">
+            <h5>HTML/CSS, JS</h5>
+            <h5>Custom WP Theme</h5>
+          </div>
+        </div> 
+      </div>      
+    </div>
+  </section>
+  <secton class="contact">
+    <div class="h2wrapper">
+      <div class="half">
+        <h2 class="">
+          <span>T</span><span>a</span><span>l</span><span>k</span>
+          <i>Let's</i>
+        </h2>
+        
+      </div>
+    </div>
+    <div class="envelope-wrapper form">
+      <div id="envelope" class="close">
+          <div class="front flap"></div>
+          <div class="front pocket"></div>
+          <div class="letter">
+            <form id="contactform" action="https://formspree.io/f/mqknveor" method="post">
+              <label for="fullname">Fullname</label>
+              <input id="fullname" type="text" name="username" maxlength="30" placeholder="Full name" required>
+              <label for="email">Email</label>
+              <input id="email" type="email" name="useremail" placeholder="Email address" required>
+              <label for="textarea">Textarea</label>
+              <textarea id="textarea" name="usermessage" maxlength="500" placeholder="Enter text here" required></textarea>
+              
+           </form>
+          </div>
+          <div class="acontainer-linked-1"><a class="linkedin" href="https://www.linkedin.com/in/baxtiyor-yusubaliev/"><img src="images/socialicons/linkedor.png" alt=""></a></div>
+          <div class="acontainer-linked-2"><a class="linkedin" href="https://github.com/username-forGithub"><img src="images/socialicons/githubor.png" alt=""></a></div>
+          <div class="acontainer-linked-3"><a class="linkedin" href="mailto:harhil46@gmail.com"><img src="images/socialicons/email.png" alt=""></a></div>
+          <div class="acontainer-linked-4"><a class="linkedin" href="https://twitter.com/Bakhtiyor_dev"><img src="images/socialicons/twitter.png" alt=""></a></div>     
+      </div>
+    </div>
+    <div class="reset">
+      <button form="contactform" id="reset">Go</button>
+  </div>
+
+  </secton>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
