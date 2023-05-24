@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/username-forGithub/my_portfolio/issues"
   },
-  "homepage": "https://github.com/username-forGithub/my_portfolio#readme",
+  "homepage": "https://username-forGithub.github.io/my_portfolio",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
