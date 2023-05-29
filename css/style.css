@@ -515,13 +515,13 @@ body {
   height: 330px;
   flex: 0 0 30%;
   border-radius: 10px;
-  background-image: url(/images/cc.jpg);
+  background-image: url(../images/cc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .projects .content {
   box-shadow: 0 0 10px 0 rgba(5, 16, 59, 0.2);
-  background: linear-gradient(40deg, rgba(255, 255, 255, 0.6) 10%, rgba(255, 255, 255, 0.3) 60%, rgba(255, 255, 255, 0.8) 100%);
+  background: linear-gradient(40deg, rgba(255, 255, 255, 0.4) 10%, rgba(255, 255, 255, 0.2) 60%, rgba(255, 255, 255, 0.4) 100%);
   backdrop-filter: blur(0px);
   border-radius: 10px;
   border: 1.5px solid rgba(255, 255, 255, 0.08);
