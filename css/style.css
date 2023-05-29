@@ -274,6 +274,11 @@ body {
   display: inline-block;
   overflow: hidden;
 }
+@media (max-width: 1200px) {
+  .layout .left1 span {
+    font-size: 10px;
+  }
+}
 .layout .left2 {
   position: absolute;
   width: 33%;
@@ -286,6 +291,11 @@ body {
   text-align: justify;
   display: inline-block;
   overflow: hidden;
+}
+@media (max-width: 1200px) {
+  .layout .left2 span {
+    font-size: 10px;
+  }
 }
 .layout .left3 {
   position: absolute;
@@ -395,6 +405,11 @@ body {
   display: inline-block;
   overflow: hidden;
 }
+@media (max-width: 1200px) {
+  .layout .right1 span {
+    font-size: 10px;
+  }
+}
 .layout .right2 {
   position: absolute;
   width: 31%;
@@ -407,6 +422,11 @@ body {
   text-align: justify;
   display: inline-block;
   overflow: hidden;
+}
+@media (max-width: 1200px) {
+  .layout .right2 span {
+    font-size: 10px;
+  }
 }
 .layout .span20 {
   position: absolute;
@@ -1012,4 +1032,21 @@ body {
   -webkit-transition: all 0.3s ease 0.3s;
   transition: all 0.3s ease 0.3s;
   visibility: visible;
+}
+
+.mob {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  body .mob {
+    display: flex;
+    height: 100dvh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  body > .hero, body > section {
+    display: none;
+  }
 }

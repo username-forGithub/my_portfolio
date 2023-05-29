@@ -247,6 +247,11 @@ body{
       display: inline-block;
       overflow: hidden;
     }
+    @media (max-width: 1200px){
+      span{
+        font-size: 10px;
+      }  
+    }
   }
   .left2{
     position: absolute;
@@ -260,6 +265,11 @@ body{
       text-align: justify;
       display: inline-block;
       overflow: hidden;
+    }
+    @media (max-width: 1200px){
+      span{
+        font-size: 10px;
+      }  
     }
   }
   .left3{
@@ -344,6 +354,11 @@ body{
       display: inline-block;
       overflow: hidden;
     }
+    @media (max-width: 1200px){
+      span{
+        font-size: 10px;
+      }  
+    }
   }
   .right2{
     position: absolute;
@@ -357,6 +372,11 @@ body{
       text-align: justify;
       display: inline-block;
       overflow: hidden;
+    }
+    @media (max-width: 1200px){
+      span{
+        font-size: 10px;
+      }  
     }
   }
   .span20{
@@ -986,5 +1006,17 @@ $base: #000825;
   -webkit-transition: all 0.3s ease 0.3s;
   transition: all 0.3s ease 0.3s;
   visibility: visible;
+}
+.mob{display: none;}
+@media(max-width:767px){
+  body{
+    .mob{
+      display: block;
+    }
+    & > .hero,
+    & > section{
+      display: none;
+    }
+  }
 }
 
