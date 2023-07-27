@@ -850,7 +850,7 @@ body {
 
 .reset {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 130px;
 }
 
 .reset button {
@@ -1040,11 +1040,7 @@ body {
 
 @media (max-width: 767px) {
   body .mob {
-    display: flex;
-    height: 100dvh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    display: block;
   }
   body > .hero, body > section {
     display: none;
