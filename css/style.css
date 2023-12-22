@@ -1038,6 +1038,12 @@ body {
   display: none;
 }
 
+.contact .open .acontainer-linked-4 a {
+    width: 35px;
+    height: 32px;
+    left: 3px;  
+}
+
 @media (max-width: 767px) {
   body .mob {
     display: block;
